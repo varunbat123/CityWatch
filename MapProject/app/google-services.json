@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "569973590659",
+    "firebase_url": "https://vigilanti.firebaseio.com",
+    "project_id": "firebase-vigilanti",
+    "storage_bucket": "firebase-vigilanti.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569973590659:android:272f9f5d95332ec8",
+        "android_client_info": {
+          "package_name": "com.self.varun.crowdweather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569973590659-jdpib2tveau74uijlnhjj7n3fmdkqjfb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqLHFQhrT6LVzWFODSz6XfW5P-SLw50N0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569973590659:android:29288e5e68ab4426",
+        "android_client_info": {
+          "package_name": "com.self.varun.mapproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569973590659-jdpib2tveau74uijlnhjj7n3fmdkqjfb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqLHFQhrT6LVzWFODSz6XfW5P-SLw50N0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

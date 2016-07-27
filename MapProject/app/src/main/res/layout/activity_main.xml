@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+   android:background="@drawable/img_bg"
+    tools:context="com.self.varun.mapproject.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CityWatch"
+        android:id="@+id/textViewCondition"
+        android:textSize="18dp"
+        android:textColor="#d4d7dd"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/txt_name"
+        android:height="45dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/input_name"
+        android:textAlignment="center"
+        android:hint="Name" />
+
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText_user"
+        android:hint="Email"
+        android:layout_below="@+id/txt_name"
+        android:layout_alignStart="@+id/txt_name"
+        android:background="@drawable/input_email"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:id="@+id/unique_id"
+        android:hint=" Username "
+        android:layout_below="@+id/editText_user"
+        android:layout_alignStart="@+id/editText_user"
+        android:background="@drawable/input_name"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText_password"
+        android:hint="Password"
+        android:layout_below="@+id/unique_id"
+        android:layout_alignStart="@+id/unique_id"
+        android:background="@drawable/input_password"
+        android:textAlignment="center" />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:id="@+id/btnRegister"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/editText_password"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_register" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:id="@+id/btnSignIn"
+        android:layout_below="@+id/btnRegister"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_login" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Register"
+        android:id="@+id/textView"
+        android:textColor="#d4d7dd"
+        android:textSize="44dp"
+        android:layout_below="@+id/textViewCondition"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
